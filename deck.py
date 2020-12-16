@@ -1,8 +1,15 @@
 import random
 
 cards = {}
+<<<<<<< HEAD
+
+
+class Deck:
+    def __init__(self):
+=======
 class Deck:
     def __init__(self):       
+>>>>>>> 7f49d37cda32b9086c05bc3f5b1554fa88e36a08
         self.build()
 
     def build(self):
@@ -31,5 +38,10 @@ class Deck:
                 }
                 card_num += 1
 
+<<<<<<< HEAD
+    def draw_card(self):
+        return cards.pop(random.choice(list(cards.keys())))
+=======
     def drawCard(self):
         return cards.pop(random.choice(list(cards.keys())))
+>>>>>>> 7f49d37cda32b9086c05bc3f5b1554fa88e36a08
